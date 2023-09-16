@@ -1,0 +1,12 @@
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item {
+    background-color: #cf5757;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 20%;
+    margin-right: 10px;
+  }
