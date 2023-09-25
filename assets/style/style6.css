@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #acc2f1;
+ }
+ header {
+    text-align: center;
+ }
+ .container {
+    display: grid;
+    column-gap: 10px;
+    padding: 10px 0;
+    justify-content:space-between;
+ }
+ .item {
+    text-align: center;
+ }
+ aside {
+    background-color: #e9be6e;
+    padding: 20px;
+    width: 50%;
+    float: left;
+    min-height: 200px;
+    display: grid;
+ }
+   .img, .img3 {
+    background-color: bisque;
+    display: grid;
+    justify-items: center;  /* Выравнивание элементов по горизонтали по центру */
+    align-items: center;  /* Выравнивание элементов по вертикали по центру */
+   }
+   .img {
+    display: grid;
+    grid-gap: 50px;
+    grid-row: 1; /* Оба элемента должны располагаться в первой строке */
+    width: 100px;
+    height: 60px;
+    
+   }
+   .img3 {
+    grid-row: 2;
+    width: 600px;
+    height: 60px; /* Третий элемент должен располагаться во второй строке */
+  }
+  article {
+    background-color: #5fa15f;
+    padding: 20px;
+    width: 39%;
+    float: right;
+    min-height: 200px;
+  }
+  footer {
+    min-height: 10px;
+  }
+.footer {
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 42px;
+}
+.footer-item {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
